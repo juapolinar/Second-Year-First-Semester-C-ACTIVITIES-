@@ -1,0 +1,96 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{
+	//Assignment 
+	//5 items
+	//under the sun questions
+	//score=score+1
+	
+	string capital, color;
+	int rainbow, sum, product;
+	int score=0, S1=0, S2=0, S3=0, S4=0, S5=0;
+
+	cout<<"\t\t\tWelcome to Buzzing Quiz Bee!";
+	
+	cout<<"\n";
+	cout<<"\n";
+	
+	cout<<"Instruction: Answer the following questions with all honesty.";
+	
+	cout<<"\n";
+	cout<<"\n";
+
+	cout<<"1. What is the capital of the Philippines? ";
+	cin>>capital;
+	
+	cout<<"\n";
+	
+	if(capital=="MANILA" || capital=="manila" || capital=="Manila"){
+		S1=score+1;
+	}
+	else{
+	}
+
+	cout<<"2. What is the most common eye color? ";
+	cin>>color;
+	
+	cout<<"\n";
+	
+	if(color=="BROWN" || color=="brown" || color=="Brown"){
+		S2=score+1;
+	}
+	else{
+	}
+	
+	cout<<"3. How many colors does a rainbow have (in numerical)? ";
+	cin>>rainbow;
+	
+	cout<<"\n";
+	
+	if(rainbow==7){
+		S3=score+1;
+	}
+	else{
+	}
+	
+	cout<<"4. What is the sum if we add 15 to 19 (in numerical)? ";
+	cin>>sum;
+	
+	cout<<"\n";
+	
+	if(sum==34){
+		S4=score+1;
+	}
+	else{
+	}
+	
+	cout<<"5. What is the product if we multiply 5 by itself (in numerical)? ";
+	cin>>product;
+	
+	cout<<"\n";
+	
+	if(product==25){
+		S5=score+1;
+	}
+	else{
+	}
+	
+	cout<<"\n";
+	cout<<"\n";
+	
+	score=S1+S2+S3+S4+S5;
+	
+	if(score>=3){
+		cout<<"Your overall score is "<<score<<"/5."<<"\n";
+		cout<<"Congratulations, you passed!";
+	}
+	else{
+		cout<<"Your overall score is "<<score<<"/5."<<"\n";
+		cout<<"Sorry, you failed. Better luck next time.";
+	}
+	
+	return 0;	
+	
+}
