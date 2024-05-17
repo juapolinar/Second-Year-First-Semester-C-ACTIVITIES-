@@ -1,1 +1,1 @@
-# Second-Year-First-Semester-C-ACTIVITIES-
+# For educational purposes only.
